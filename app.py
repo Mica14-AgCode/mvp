@@ -1,3 +1,16 @@
+"""
+OneClick Lending Dashboard - Streamlit App
+Ejecutar con: streamlit run app.py
+
+Dependencias necesarias:
+pip install streamlit pandas plotly
+
+O crear requirements.txt con:
+streamlit==1.32.2
+pandas==2.2.1
+plotly==5.19.0
+"""
+
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
